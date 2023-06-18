@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { Context } from "../store/appContext.js"
 import { Favorites } from "../component/favorites.js"
@@ -15,7 +15,7 @@ function empty() {
 	return (
 		<nav className="navbar navbar-light bg-light mb-3">
 			<Link to="/">
-				<span className="navbar-brand mb-0 h1 LogoStarWars"><img style={{maxHeight:30, maxWidth:30}} className="Logo" src="https://w7.pngwing.com/pngs/4/136/png-transparent-star-wars-anakin-skywalker-logo-star-wars-text-number-desktop-wallpaper.png"></img></span>
+				<span className="navbar-brand mb-0 h1 LogoStarWars"><img style={{maxHeight:100, maxWidth:100}} className="Logo" src="https://w7.pngwing.com/pngs/4/136/png-transparent-star-wars-anakin-skywalker-logo-star-wars-text-number-desktop-wallpaper.png"></img></span>
 			</Link>
 			<div className="ml-auto">
 				<div className="dropDownMenu">

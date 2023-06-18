@@ -13,4 +13,5 @@ export const Favorites = (props) => {
             {props.name}<button onClick={deleteFavorite} className="btn-close"></button>
         </div>
     );
-}
+};
+export default Favorites

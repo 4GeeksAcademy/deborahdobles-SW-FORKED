@@ -4,6 +4,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 			character: [{}],
 			planet: [{}],
 			vehicle: [{}],
+
 			favoritesList: [],
 		},
 		actions: {
